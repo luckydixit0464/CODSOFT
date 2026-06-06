@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Dixit | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="scroll-progress"></div>
+
+    <canvas id="neural-canvas"></canvas>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Lucky<span>.</span></a>
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certificates">Certificates</a>
+            </nav>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content fade-in">
+            <div class="achievement-badge">
+                <i class="fa-solid fa-trophy"></i> Elite Certified: NPTEL Joy of Computing Using Python (85%)
+            </div>
+            
+            <div class="profile-img-container">
+                <img src="45759.jpg" alt="Lucky Dixit Profile Picture">
+            </div>
+            
+            <h1>Hi, I am <span class="gradient-text">Lucky Dixit</span></h1>
+            <h2>I am a <span class="typing-text"></span></h2>
+            <p>Eager to contribute to innovative, real-world tech solutions in a collaborative team environment.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="Modern Professional CV Resume (2).pdf" class="btn secondary-btn"><i class="fa-solid fa-download"></i> Download Resume</a>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:luckydixit0464@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section fade-in">
+        <h2 class="section-title">Career Objective</h2>
+        <div class="about-container">
+            <p>Motivated Computer Science fresher with hands-on knowledge in Java, Python, and SQL gained through academic projects. Passionate about software development and eager to contribute to innovative, real-world tech solutions in a collaborative team environment.</p>
+        </div>
+    </section>
+
+    <section id="education" class="education-section fade-in">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Technology (CSE - AI/ML)</h3>
+                    <p class="institution">Maharana Institute of Professional Studies</p>
+                    <span class="date">2024 - 2028</span>
+                    <span class="grade">CGPA: 8.0 (Till 4th Sem)</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Class 12th (CBSE)</h3>
+                    <span class="date">2022 - 2024</span>
+                    <span class="grade">Percentage: 70%</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Class 10th (CBSE)</h3>
+                    <span class="date">2020 - 2022</span>
+                    <span class="grade">Percentage: 64%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section fade-in">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span>Python Programming</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span>Machine Learning (Basic)</span>
+                    <span>60%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 60%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span>AI Automation</span>
+                    <span>55%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 55%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span>Problem-Solving</span>
+                    <span>75%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span>Time Management</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span>Leadership</span>
+                    <span>70%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section fade-in">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-house-chimney"></i></div>
+                <h3>House Price Prediction System</h3>
+                <p>Developed an ML model using Python. Extensively worked on data preprocessing pipelines and core prediction analysis elements.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h3>Digital Learning Platform</h3>
+                <p>Developed a Digital Learning Platform built for online education and course management. Designed a responsive frontend using HTML, CSS, and JavaScript. Structured features including student login architectures, comprehensive course access controls, and interactive learning dashboards.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates-section fade-in">
+        <h2 class="section-title">Workshops & Certificates</h2>
+        <div class="certificates-list">
+            <div class="cert-item">
+                <i class="fa-solid fa-certificate cert-icon"></i>
+                <div class="cert-details">
+                    <h4>NPTEL - The Joy of Computing Using Python</h4>
+                    <p>Achieved Elite status with a verified score of 85%</p>
+                </div>
+            </div>
+            <div class="cert-item">
+                <i class="fa-solid fa-laptop-code cert-icon"></i>
+                <div class="cert-details">
+                    <h4>Full Stack Development Workshop</h4>
+                    <p>Organized by Softpro India</p>
+                </div>
+            </div>
+            <div class="cert-item">
+                <i class="fa-solid fa-chart-pie cert-icon"></i>
+                <div class="cert-details">
+                    <h4>Power BI Certification</h4>
+                    <p>Issued by OfficeMaster</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="declaration"><strong>Declaration:</strong> I hereby declare that the information provided above is true and correct to the best of my knowledge and belief.</p>
+        <p class="copyright">&copy; 2026 Lucky Dixit. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
